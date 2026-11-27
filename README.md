@@ -1,6 +1,6 @@
 # Carlos Quinones: AI Process Automation
 
-Live page: https://ceq2000.github.io/prework-about-me/
+Live page: https://ceq2000.github.io/
 
 A one-page profile for my AI process automation work: what I build (workflows in n8n for sales, operations, documents and support, with AI that a person approves), my portfolio projects, and how to book a call.
 
