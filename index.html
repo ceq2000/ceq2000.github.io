@@ -1,40 +1,166 @@
 <!doctype html>
-
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-
-    <title>About Me</title>
-    <link rel="stylesheet" href="css/style.css">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carlos Quinones | AI Process Automation</title>
+  <meta name="description" content="Carlos Quinones builds AI process automation for sales, operations, support and finance teams, in n8n with Claude and a person approving every step. Bilingual EN/ES, based in Medellín, Colombia.">
+  <meta property="og:title" content="Carlos Quinones | AI Process Automation">
+  <meta property="og:description" content="AI process automation that takes repetitive work off your team, built in n8n and handed over so you own it.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ceq2000.github.io/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230f766e'/><text x='32' y='42' font-family='Arial' font-size='28' font-weight='700' text-anchor='middle' fill='white'>CQ</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header class='masthead'>
-        <p class='masthead-intro'>Hi I'm</p>
-        <h1 class='masthead-heading'>Carlos Quinones</h1>
-    </header>
-    <section class="details">
-      <h1>Introduction</h1>
-      <p>Hello Everyone!</p>
-      <h1>Where I'm From</h1>
-      <p>Colombia</p>
-      <h1>What are your favorite hobbies?</h1>
-      <p>Traveling, Reading, Hiking</p>
-      <h1>What's your dream job?</h1>
-      <p>Digital Nomad</p>
-      <h1>Where do you live?</h1>
-      <p>Fairfield, CT USA</p>
-      <h1>Why do you want to be a web developer?</h1>
-      <p>I want to actively participate in the digital economy as a web developer collaborating on world class web projects from remote locations.</p>
+  <header class="masthead">
+    <nav class="nav">
+      <a class="nav-brand" href="#top">Carlos Quinones</a>
+      <ul class="nav-links">
+        <li><a href="#build">What I build</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero" id="top">
+      <p class="eyebrow">AI Process Automation · English / Español</p>
+      <h1 class="hero-heading">I automate the busywork that slows your team down.</h1>
+      <p class="hero-sub">AI process automation for sales, operations, support and finance. I connect your apps, email and documents in n8n, add AI where it helps, and keep a person approving what matters. You get workflows your team can run, read and change, not a black box.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://carlos-quinones-site.vercel.app/#contact">Book a free 30-minute call</a>
+        <a class="btn btn-ghost" href="#projects">See the projects</a>
+      </div>
+      <ul class="stats">
+        <li><strong>25+ years</strong><span>web and tech delivery</span></li>
+        <li><strong>EN / ES</strong><span>US and Latin America</span></li>
+        <li><strong>UTC-5</strong><span>Medellín, Colombia</span></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="about">
+      <h2>About me</h2>
+      <p>I'm Carlos, a bilingual consultant who has spent more than two decades shipping web platforms, CMS rollouts and CRM projects for banks, publishers and global brands. Today I focus on AI process automation: finding the repetitive, copy-and-paste work inside a business and turning it into reliable workflows, whether that's routing a new lead, processing an invoice or answering a routine support request.</p>
+      <p>I work discovery-first. Before anything is built, we measure where the hours go and agree on what is worth automating. You always talk to the person doing the work.</p>
     </section>
 
-    <footer id="footer">
-        <ul class="social">
-          <li><a href="http://www.github.com/ceq2000">Github</a></li>
-        </ul>
-    </footer>
+    <section class="section" id="build">
+      <h2>What I build</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Sales and lead handling</h3>
+          <p>Inbound leads enriched, scored against your ideal customer and routed to the right rep in Slack and your CRM within seconds.</p>
+        </article>
+        <article class="card">
+          <h3>Operations and back office</h3>
+          <p>Data moved between apps, records kept in sync and reports built automatically, so nobody re-types the same thing twice.</p>
+        </article>
+        <article class="card">
+          <h3>Documents and finance</h3>
+          <p>Invoices, forms and emails read by AI, key fields extracted and checked, and exceptions sent to a person for review.</p>
+        </article>
+        <article class="card">
+          <h3>Support and inbox triage</h3>
+          <p>Incoming requests classified, summarized and answered in draft, with a review step before anything reaches a customer.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h2>Portfolio projects</h2>
+      <p class="section-lead">Live sites and documented automation builds. Each automation repo includes the workflow export, a setup guide and sample data.</p>
+      <div class="projects">
+        <article class="project">
+          <div class="project-head">
+            <h3>Lead enrich, score and route</h3>
+            <span class="tag tag-progress">In progress</span>
+          </div>
+          <p>An n8n workflow that takes an inbound lead, enriches it with Apollo, scores it against an ICP with Claude, routes hot leads to Slack and the CRM, and logs every decision for review.</p>
+          <p class="stack">n8n · Apollo.io · Claude · Slack · Webhooks</p>
+          <!-- TODO: replace with the repo URL once the n8n flagship repo is published -->
+          <a class="project-link" href="https://github.com/ceq2000?tab=repositories">View on GitHub →</a>
+        </article>
+        <article class="project">
+          <div class="project-head">
+            <h3>Consulting site</h3>
+            <span class="tag tag-live">Live</span>
+          </div>
+          <p>My bilingual consulting site: services, pricing and a worked example of how automation savings are measured before a build starts.</p>
+          <p class="stack">Vercel · EN / ES</p>
+          <a class="project-link" href="https://carlos-quinones-site.vercel.app/">Visit the site →</a>
+        </article>
+        <article class="project">
+          <div class="project-head">
+            <h3>GDS: AI automation, built and run for you</h3>
+            <span class="tag tag-live">Live</span>
+          </div>
+          <p>Done-for-you AI automation for mid-sized companies, with a five-phase method: audit, prove, ship, hand over and improve.</p>
+          <p class="stack">Claude · Vercel · EN / ES</p>
+          <a class="project-link" href="https://w3basics.vercel.app/">Visit the site →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="toolbox">
+      <h2>Toolbox</h2>
+      <ul class="chips">
+        <li>n8n</li>
+        <li>Claude</li>
+        <li>Apollo.io</li>
+        <li>Slack</li>
+        <li>REST APIs and webhooks</li>
+        <li>Claude Code</li>
+        <li>Cursor</li>
+        <li>JavaScript</li>
+        <li>HTML and CSS</li>
+        <li>Git and GitHub</li>
+        <li>WordPress and other CMS platforms</li>
+        <li>Agile and Scrum (CSM)</li>
+        <li>Project and delivery management</li>
+      </ul>
+    </section>
+
+    <section class="section" id="experience">
+      <h2>Experience highlights</h2>
+      <ul class="timeline">
+        <li><span class="when">2021 – 2022</span><span class="what"><strong>Project Manager</strong>, AANA: led a CMO-sponsored website redesign with multiple system integrations across vendors and internal teams</span></li>
+        <li><span class="when">2019 – 2021</span><span class="what"><strong>Senior Manager, founder of the Medellín delivery team</strong>, Web Basics: recruited and ran a distributed team of designers, developers and PMs in Colombia</span></li>
+        <li><span class="when">2018 – 2019</span><span class="what"><strong>Technical Project Manager</strong>, Rebel Interactive: Bank of America Merchant Solutions redesign and a security audit for Chelsea Groton Bank</span></li>
+        <li><span class="when">2009 – 2018</span><span class="what"><strong>Managing Director</strong>, GO2NERDS: founded an IT and technology partner firm and built its PMO</span></li>
+        <li><span class="when">2006 – 2009</span><span class="what"><strong>Interactive Project Manager</strong>, Vertrue: revamped 15 large medical websites with CMS and community migrations</span></li>
+        <li><span class="when">1994 – 2006</span><span class="what">Earlier roles at Web Basics, JBrown/Grey Global Group, Emerald Solutions, TTS Systems and Advantage Staffing, with work for Gillette Latin America, Consumer Reports, Clorox, Nabisco and IBM/Lotus</span></li>
+      </ul>
+      <p class="fine">B.B.A., International Marketing, Pace University · Full Stack Developer, UConn Coding Boot Camp (2020) · Certified ScrumMaster (CSM, 2017)</p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <h2>Let's find what's worth automating</h2>
+      <p>Tell me which tasks eat your team's week. In 30 minutes we'll know whether automation pays for itself, and what to build first.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://carlos-quinones-site.vercel.app/#contact">Book a free call</a>
+        <a class="btn btn-ghost-dark" href="https://www.upwork.com/freelancers/~017a0024bb2f05f1a2">Hire me on Upwork</a>
+        <a class="btn btn-ghost-dark" href="https://github.com/ceq2000">Follow on GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <ul class="social">
+      <li><a href="https://carlos-quinones-site.vercel.app/">Consulting</a></li>
+      <li><a href="https://w3basics.vercel.app/">GDS</a></li>
+      <li><a href="https://www.upwork.com/freelancers/~017a0024bb2f05f1a2">Upwork</a></li>
+      <li><a href="https://github.com/ceq2000">GitHub</a></li>
+    </ul>
+    <p>© 2026 Carlos Quinones</p>
+  </footer>
 </body>
 
 </html>
