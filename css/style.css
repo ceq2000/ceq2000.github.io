@@ -261,6 +261,17 @@ a {
   text-decoration: none;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: auto;
+}
+
+.project-links .project-link {
+  margin-top: 0;
+}
+
 .tag {
   flex-shrink: 0;
   padding: 2px 10px;
