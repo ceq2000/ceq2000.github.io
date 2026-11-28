@@ -5,7 +5,7 @@ Live page: https://ceq2000.github.io/
 A one-page profile for my AI process automation work: what I build (workflows in n8n for sales, operations, documents and support, with AI that a person approves), my portfolio projects, and how to book a call.
 
 - Consulting site: https://carlos-quinones-site.vercel.app/
-- GDS, AI automation built and run for you: https://w3basics.vercel.app/
+- GDS (Global Digital Services), where I lead business development: https://gdservices.io/
 
 ## Tech
 
